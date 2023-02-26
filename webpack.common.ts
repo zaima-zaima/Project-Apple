@@ -29,7 +29,7 @@ export default {
         filename:"./css/[chunkhash].css"
        }), 
        new HtmlWebpackPlugin({
-            template:path.resolve(__dirname,"src/public/index.html"),
+            template:path.resolve(__dirname,"public/index.html"),
             chunks:["index"],
             filename:"[name].html"
         })
